@@ -7,7 +7,6 @@ import Home from "./Home";
 import Pricing from "./Pricing";
 import Register from "./Register";
 import TestTips from "./TestTips";
-import SignUp from "./SignUp";
 
 
 class App extends Component {
@@ -26,17 +25,15 @@ class App extends Component {
                                         <div className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3">
                                             <NavLink className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" to="/">Home</NavLink>
                                             <NavLink className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" to="/Pricing">Pricing</NavLink>
-                                            <NavLink className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" to="/Register">Register</NavLink>
                                             <NavLink className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" to="/TestTips">Test Tips</NavLink>
-                                            <NavLink className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3 ba" to="/SignUp">Sign Up</NavLink>
+                                            <NavLink className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3 ba" to="/Register">Register</NavLink>
                                         </div>
 
                                         <div className="content">
                                             <Route path="/" component={Home} />
                                             <Route path="/Pricing" component={Pricing} />
-                                            <Route path="/Register" component={Register} />
                                             <Route path="/TestTips" component={TestTips} />
-                                            <Route path="/SignUp" component={SignUp} />
+                                            <Route path="/Register" component={Register} />
                                         </div>
                                     </div>
                                 </nav>

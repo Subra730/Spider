@@ -18,10 +18,10 @@ class App extends Component {
                         <div className="cover bg-left bg-center-l">
                             <div className="bg-black-80 pb5 pb6-m pb7-l">
                                 <nav className="dt w-100 mw8 center">
-                                    <div className="dtc w2 v-mid pa3">
-                                        <div className="dib w2 h2 pa1 ba b--white-90 grow-large border-box"></div>
-                                    </div>
+
                                     <div className="dtc v-mid tr pa3">
+                                        <div className="dib w2 h2 pa1 ba b--white-90 grow-large border-box"></div>
+
                                         <div className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3">
                                             <NavLink className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" to="/">Home</NavLink>
                                             <NavLink className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" to="/Pricing">Pricing</NavLink>

@@ -7,7 +7,7 @@ import Home from "./Home";
 import Pricing from "./Pricing";
 import Register from "./Register";
 import TestTips from "./TestTips";
-
+///updates
 
 class App extends Component {
     render() {

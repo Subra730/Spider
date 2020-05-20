@@ -299,6 +299,18 @@
         margin-top: 4rem;
     }
 }
+ 
+
+ol.pricing4 {
+    list-style-type: none;
+    position: absolute;
+     
+   
+    width: 250px;
+    height: 250px;
+    border: 3px solid blue;
+   
+}
 
 @media screen and (min-width: 60em) {
     .bg-center-l {
@@ -325,4 +337,5 @@
     .f1-l {
         font-size: 3rem;
     }
+
 }

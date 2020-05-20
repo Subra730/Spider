@@ -7,12 +7,13 @@ import Home from "./Home";
 import Pricing from "./Pricing";
 import Register from "./Register";
 import TestTips from "./TestTips";
-
+///updates
 
 class App extends Component {
     render() {
         return (
             <HashRouter>
+
                 <div className="App">
                     <header className="sans-serif">
                         <div className="cover bg-left bg-center-l">
@@ -30,10 +31,10 @@ class App extends Component {
                                         </div>
 
                                         <div className="content">
-                                            <Route path="/" component={Home} />
-                                            <Route path="/Pricing" component={Pricing} />
-                                            <Route path="/TestTips" component={TestTips} />
-                                            <Route path="/Register" component={Register} />
+                                            <Route exact path="/" component={Home}></Route>
+                                            <Route exact path="/Pricing" component={Pricing}></Route>
+                                            <Route exact path="/TestTips" component={TestTips}></Route>
+                                            <Route exact path="/Register" component={Register}></Route>
                                         </div>
                                     </div>
                                 </nav>
@@ -41,6 +42,7 @@ class App extends Component {
                         </div>
                     </header>
                 </div>
+
             </HashRouter>
         );
     }

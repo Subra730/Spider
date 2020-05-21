@@ -8,6 +8,7 @@ class Pricing extends Component {
             <article className="cf fl w-50 bg-near-white tc" >
 
                 <div className="fl w-50 bg-near-white tc" >
+                    <h1>Driving Lesson Packages</h1>
                     <h1>1  x 60 mins lesson</h1>
                     <h1>5  x 60 mins lesson</h1>
                     <h1>10 x 60 mins lesson</h1>

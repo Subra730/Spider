@@ -1,0 +1,34 @@
+css
+.cf:before, .cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.fl {
+    float: left;
+    _display: inline;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.bg-light-gray {
+    background-color: #eee;
+}
+
+.bg-near-white {
+    background-color: #f4f4f4;
+}
+
+.tc {
+    text-align: center;
+}

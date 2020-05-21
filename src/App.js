@@ -3,11 +3,11 @@ import './App.css';
 
 import { HashRouter, NavLink, Route } from 'react-router-dom';
 
-import Home from "./Home";
-import Pricing from "./Pricing";
-import Register from "./Register";
-import TestTips from "./TestTips";
-///updates
+import Home from "./components/Home/Home";
+import Pricing from "./components/Pricing/Pricing";
+import Register from "./components/Register/Register";
+import TestTips from "./components/TestTips/TestTips";
+
 
 class App extends Component {
     render() {
@@ -24,17 +24,17 @@ class App extends Component {
                                         <div className="dib w2 h2 pa1 ba b--white-90 grow-large border-box"></div>
 
                                         <div className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3">
-                                            <NavLink className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" to="/">Home</NavLink>
+                                            <NavLink className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" to="/Home">Home</NavLink>
                                             <NavLink className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" to="/Pricing">Pricing</NavLink>
-                                            <NavLink className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" to="/TestTips">Test Tips</NavLink>
-                                            <NavLink className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3 ba" to="/Register">Register</NavLink>
+                                            <NavLink className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" to="/Home">Test Tips</NavLink>
+                                            <NavLink className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3 ba" to="/Home">Register</NavLink>
                                         </div>
 
                                         <div className="content">
-                                            <Route exact path="/" component={Home}></Route>
+                                            <Route exact path="/Home" component={Home}></Route>
                                             <Route exact path="/Pricing" component={Pricing}></Route>
-                                            <Route exact path="/TestTips" component={TestTips}></Route>
-                                            <Route exact path="/Register" component={Register}></Route>
+                                            <Route exact path="/Home" component={Home}></Route>
+                                            <Route exact path="/Home" component={Home}></Route>
                                         </div>
                                     </div>
                                 </nav>

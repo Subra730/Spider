@@ -4,9 +4,6 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <div>
-                    <h1>Teach Me 2 Drive</h1>
-                </div>
                 <div className="tc-l mt4 mt5-m mt6-l ph3">
                     <h2 className="f2 f1-l fw2 white-90 mb0 lh-title">Developing safer drivers</h2>
                     <h3 className="fw1 f3 white-80 mt3 mb4">with our structured lessons adapted to suit different learners</h3>

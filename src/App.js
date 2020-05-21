@@ -16,7 +16,6 @@ class App extends Component {
 
                 <div className="App">
                     <header className="sans-serif">
-
                         <div className="cover bg-left bg-center-l">
                             <div className="bg-black-80 pb5 pb6-m pb7-l">
                                 <nav className="dt w-100 mw8 center">
